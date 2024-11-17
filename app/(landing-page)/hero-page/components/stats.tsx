@@ -1,7 +1,4 @@
-import Image from "next/image";
 import React from "react";
-import babe4 from "../../../../public/babe30    .jpg";
-import { ArrowRight } from "lucide-react";
 
 export default function Stats() {
   return (
@@ -10,7 +7,7 @@ export default function Stats() {
         <div className="flex items-center justify-center gap-7 ">
           <div className="space-x-4">
             <span className="font-bold">height</span>
-            <span className="font-extralight">5'9"</span>
+            <span className="font-extralight">5&rdquo;9&rdquo;</span>
           </div>
           <div className="space-x-4">
             <span className="font-bold">bust</span>
@@ -20,11 +17,11 @@ export default function Stats() {
         <div className="grid grid-cols-3 gap-4 ">
           <div className="space-x-4">
             <span className="font-bold">waist</span>
-            <span className="font-extralight">26"</span>
+            <span className="font-extralight">26</span>
           </div>
           <div className="space-x-4">
             <span className="font-bold">hips</span>
-            <span className="font-extralight">36"</span>
+            <span className="font-extralight">36</span>
           </div>
           <div className="space-x-4">
             <span className="font-bold">shoe</span>
