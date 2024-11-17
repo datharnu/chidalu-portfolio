@@ -62,7 +62,7 @@ export default function Stats() {
           muted
           className=" w-[22%] h-[33vh] lg:h-[70vh] object-cover"
         >
-          <source src="/fine-girl2.mov" type="video/mp4" />
+          <source src="/girl2.MOV" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
@@ -72,7 +72,7 @@ export default function Stats() {
           muted
           className=" w-[22%] h-[33vh] lg:h-[70vh] object-cover mt-20 "
         >
-          <source src="/fine-girl.mp4" type="video/mp4" />
+          <source src="/girl1.MP4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <video
@@ -81,7 +81,7 @@ export default function Stats() {
           muted
           className=" w-[22%] h-[33vh] lg:h-[70vh] object-cover"
         >
-          <source src="/fine-girl2.mov" type="video/mp4" />
+          <source src="/girl2.MOV" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
@@ -91,7 +91,7 @@ export default function Stats() {
           muted
           className=" w-[22%] h-[33vh] lg:h-[70vh] object-cover mt-20 "
         >
-          <source src="/fine-girl.mp4" type="video/mp4" />
+          <source src="/girl1.MP4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
