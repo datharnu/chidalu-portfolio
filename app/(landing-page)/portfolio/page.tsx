@@ -3,13 +3,8 @@ import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { images } from "@/app/utils/Photoshoots";
 
-// Define the interface for props
-interface PortfolioPageProps {
-  initialIndex?: number; // Optional initial index for the carousel
-}
-
-// PortfolioPage component using PortfolioPageProps
-const PortfolioPage: React.FC<PortfolioPageProps> = ({ initialIndex = 0 }) => {
+// Create a client component for the interactive part
+const PortfolioGallery = ({ initialIndex = 0 }: { initialIndex?: number }) => {
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
   const [isAnimating, setIsAnimating] = useState(false);
 
@@ -40,8 +35,8 @@ const PortfolioPage: React.FC<PortfolioPageProps> = ({ initialIndex = 0 }) => {
   }, [currentIndex, isAnimating]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <div className="relative w-full max-w-7xl flex flex-col justify-center min-h-[80vh] lg:min-h-0 lg:pt-20  mx-auto p-4">
-      <div className="flex  w-full lg:gap-4 gap-2">
+    <div className="relative w-full max-w-7xl flex flex-col justify-center min-h-[80vh] lg:min-h-0 lg:pt-20 mx-auto p-4">
+      <div className="flex w-full lg:gap-4 gap-2">
         {/* Left Image */}
         <div className="relative w-full md:w-1/2 h-[300px] md:h-[600px] lg:h-[800px] overflow-hidden group">
           <img
@@ -117,4 +112,7 @@ const PortfolioPage: React.FC<PortfolioPageProps> = ({ initialIndex = 0 }) => {
   );
 };
 
-export default PortfolioPage;
+// Create the actual page component
+export default function PortfolioPage() {
+  return <PortfolioGallery />;
+}
