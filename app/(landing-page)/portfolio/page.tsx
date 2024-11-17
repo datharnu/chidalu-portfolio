@@ -2,12 +2,13 @@
 import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { images } from "@/app/utils/Photoshoots";
-// Adjust the import path based on your file structure
 
+// Define the interface for props
 interface PortfolioPageProps {
-  initialIndex?: number | undefined;
+  initialIndex?: number; // Optional initial index for the carousel
 }
 
+// PortfolioPage component using PortfolioPageProps
 const PortfolioPage: React.FC<PortfolioPageProps> = ({ initialIndex = 0 }) => {
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
   const [isAnimating, setIsAnimating] = useState(false);
