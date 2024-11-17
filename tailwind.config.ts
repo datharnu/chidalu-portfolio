@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        bgImage1: "url('/babe4.jpg')",
+      },
     },
   },
   plugins: [],
