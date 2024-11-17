@@ -10,7 +10,7 @@ export default function HeroPage() {
       {/* hero video */}
       <div className="relative w-full h-[33vh] lg:h-[70vh]">
         <video autoPlay loop muted className=" w-full h-full object-cover">
-          <source src="/hero-video.mov" type="video/mp4" />
+          <source src="./hero-video.mov" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-20"></div> */}
