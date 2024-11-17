@@ -107,7 +107,7 @@ export const images: ImagePair[] = [
   },
   {
     left: {
-      src: "/babe10.JPG",
+      src: "/babe10.jpg",
       alt: "Portrait photo 2",
     },
     right: {
