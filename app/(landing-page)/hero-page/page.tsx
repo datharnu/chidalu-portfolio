@@ -1,12 +1,9 @@
-import Navbar from "@/components/shared/navbar";
-
 import React from "react";
 import Stats from "./components/stats";
 
 export default function HeroPage() {
   return (
     <div className=" mb-20">
-      <Navbar />
       {/* hero video */}
       <div className="relative w-full h-[33vh] lg:h-[70vh]">
         <video autoPlay loop muted className=" w-full h-full object-cover">
@@ -20,8 +17,12 @@ export default function HeroPage() {
           </h1>
         </div>
         <div className="uppercase z-10 lg:-mt-[20px] flex items-center justify-between lg:justify-center mx-2 gap-5 relative bottom-28 text-[12px] font-extrabold text-center">
-          <p>portfolio</p>
-          <p>instagram</p>
+          <a href="/portfolio">
+            <p>portfolio</p>
+          </a>
+          <a href="https://www.instagram.com/chidaluobiakwala/">
+            <p>instagram</p>
+          </a>
           <p>digitals</p>
           <p>video</p>
           <p>shows</p>
