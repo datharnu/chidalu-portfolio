@@ -12,7 +12,7 @@ export default function HeroPage() {
           Your browser does not support the video tag.
         </video> */}
 
-        <OptimizedVideo src="/IMG_0137.MOV" posterImage="/babe33.JPG" />
+        <OptimizedVideo src="/IMG_0137.MOV" />
         <div>
           <h1 className="uppercase relative bottom-36 lg:bottom- text-[32px] z-10 lg:text-7xl  font-extrabold text-center tracking-tighter">
             Rose Obiakwala
