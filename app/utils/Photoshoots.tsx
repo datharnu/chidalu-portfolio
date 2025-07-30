@@ -33,6 +33,16 @@ export const images: ImagePair[] = [
   },
   {
     left: {
+      src: "/new1.JPG",
+      alt: "Portrait photo 1",
+    },
+    right: {
+      src: "/new2.jpg",
+      alt: "Fashion photo 1",
+    },
+  },
+  {
+    left: {
       src: "/babe1.JPG",
       alt: "Portrait photo 1",
     },
@@ -51,7 +61,16 @@ export const images: ImagePair[] = [
       alt: "Fashion photo 2",
     },
   },
-
+  {
+    left: {
+      src: "/new3.jpg",
+      alt: "Portrait photo 1",
+    },
+    right: {
+      src: "/new4.jpg",
+      alt: "Fashion photo 1",
+    },
+  },
   // Add more pairs following the same pattern...
   {
     left: {
@@ -60,6 +79,16 @@ export const images: ImagePair[] = [
     },
     right: {
       src: "/babe30.JPG",
+      alt: "Fashion photo 1",
+    },
+  },
+  {
+    left: {
+      src: "/new5.jpg",
+      alt: "Portrait photo 1",
+    },
+    right: {
+      src: "/new6.jpg",
       alt: "Fashion photo 1",
     },
   },
@@ -75,11 +104,31 @@ export const images: ImagePair[] = [
   },
   {
     left: {
+      src: "/new7.jpg",
+      alt: "Portrait photo 1",
+    },
+    right: {
+      src: "/new8.jpg",
+      alt: "Fashion photo 1",
+    },
+  },
+  {
+    left: {
       src: "/babe27.JPG",
       alt: "Portrait photo 1",
     },
     right: {
       src: "/babe26.JPG",
+      alt: "Fashion photo 1",
+    },
+  },
+  {
+    left: {
+      src: "/new9.jpg",
+      alt: "Portrait photo 1",
+    },
+    right: {
+      src: "/new10.jpg",
       alt: "Fashion photo 1",
     },
   },
@@ -107,6 +156,16 @@ export const images: ImagePair[] = [
   },
   {
     left: {
+      src: "/new11.jpg",
+      alt: "Portrait photo 1",
+    },
+    right: {
+      src: "/new12.jpg",
+      alt: "Fashion photo 1",
+    },
+  },
+  {
+    left: {
       src: "/babe10.jpg",
       alt: "Portrait photo 2",
     },
@@ -117,11 +176,31 @@ export const images: ImagePair[] = [
   },
   {
     left: {
+      src: "/new13.jpg",
+      alt: "Portrait photo 1",
+    },
+    right: {
+      src: "/new14.jpg",
+      alt: "Fashion photo 1",
+    },
+  },
+  {
+    left: {
       src: "/babe12.PNG",
       alt: "Portrait photo 1",
     },
     right: {
       src: "/babe21.JPG",
+      alt: "Fashion photo 1",
+    },
+  },
+  {
+    left: {
+      src: "/new15.jpg",
+      alt: "Portrait photo 1",
+    },
+    right: {
+      src: "/new16.jpg",
       alt: "Fashion photo 1",
     },
   },
@@ -144,6 +223,16 @@ export const images: ImagePair[] = [
     },
     right: {
       src: "/babe23.JPG",
+      alt: "Fashion photo 1",
+    },
+  },
+  {
+    left: {
+      src: "/new17.jpg",
+      alt: "Portrait photo 1",
+    },
+    right: {
+      src: "/new19.jpg",
       alt: "Fashion photo 1",
     },
   },
